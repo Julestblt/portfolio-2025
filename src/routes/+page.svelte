@@ -1,9 +1,10 @@
 <script>
-	import { About, Header, Skills } from '$lib/layout/';
+	import { About, Header, Projects, Skills } from '$lib/layout/';
 </script>
 
 <Header />
 <main class="mx-auto max-w-4xl px-4 py-12">
 	<About />
 	<Skills />
+	<Projects />
 </main>
