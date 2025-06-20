@@ -71,7 +71,7 @@
 
 <div
 	bind:this={wrapper}
-	class="pointer-events-none absolute inset-0 z-[-1] h-full w-full {className}"
+	class="pointer-events-none fixed inset-0 z-[-1] h-screen w-screen {className}"
 >
 	<canvas {id} class="h-full w-full"></canvas>
 </div>

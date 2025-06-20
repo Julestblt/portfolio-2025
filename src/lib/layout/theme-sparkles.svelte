@@ -7,7 +7,6 @@
 
 <SparklesCore
 	id="tsparticles"
-	className="w-screen h-screen"
 	background="transparent"
 	particleDensity={80}
 	minSize={0.8}
