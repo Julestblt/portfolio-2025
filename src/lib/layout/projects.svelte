@@ -6,7 +6,7 @@
 	import { projects } from '$lib/constants/projects';
 </script>
 
-<hr class="mt-5" id="skills" />
+<hr class="mt-5" id="projects" />
 <section class="mt-6 flex flex-col items-center justify-center gap-8">
 	<h3 class="text-3xl font-bold">Projects</h3>
 

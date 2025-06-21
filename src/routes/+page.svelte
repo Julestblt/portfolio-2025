@@ -1,5 +1,5 @@
 <script>
-	import { About, Header, Projects, Skills } from '$lib/layout/';
+	import { About, Experiences, Header, Projects, Skills } from '$lib/layout/';
 </script>
 
 <Header />
@@ -7,4 +7,5 @@
 	<About />
 	<Skills />
 	<Projects />
+	<Experiences />
 </main>
