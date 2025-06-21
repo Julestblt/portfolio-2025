@@ -7,3 +7,4 @@ export { default as Projects } from './projects.svelte';
 export { default as Experiences } from './experiences.svelte';
 export { default as Education } from './education.svelte';
 export { default as Certifications } from './certifications.svelte';
+export { default as Footer } from './footer.svelte';

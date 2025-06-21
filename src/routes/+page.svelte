@@ -4,6 +4,7 @@
 		Certifications,
 		Education,
 		Experiences,
+		Footer,
 		Header,
 		Projects,
 		Skills
@@ -19,3 +20,4 @@
 	<Education />
 	<Certifications />
 </main>
+<Footer />
