@@ -9,7 +9,7 @@
 		<div class="flex flex-col items-center justify-between gap-4 md:flex-row">
 			<div class="flex flex-col space-y-2">
 				<a
-					href="mailto:fernand3zdev@gmail.com"
+					href="mailto:julesthibault@pm.me"
 					class="text-muted-foreground hover:text-foreground group flex items-center space-x-2 transition-colors"
 					><Mail />
 					<span class="transition-transform duration-200 group-hover:translate-x-1"
