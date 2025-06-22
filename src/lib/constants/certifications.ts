@@ -18,7 +18,7 @@ export const certifications = [
 		issuer: 'The SecOps Group',
 		date: 'Nov 2024',
 		issuer_logo: '/secopsgroup.png',
-		link: 'https://media.licdn.com/dms/image/v2/D4E2DAQFjEjQGs84u5Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1703781522033?e=1751115600&v=beta&t=hG3mzvhRrrJWsJzbsBY81YPiipUcv-bZd7E0P2BDcfo'
+		link: 'https://media.licdn.com/dms/image/v2/D4E2DAQGMuh7oPSqL0w/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1731448526488?e=1751223600&v=beta&t=piFq_utxHo_2gYvk9PiXNmpuGRJIShH-amt0m0cwHEo'
 	},
 	{
 		title: 'OWASP SAMM Fundamentals',
