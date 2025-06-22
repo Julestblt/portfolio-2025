@@ -9,11 +9,16 @@ function getCurrentMode(): 'dark' | 'light' {
 }
 
 export const theme = readable<'dark' | 'light'>(getCurrentMode(), (set) => {
+	if (!browser) return () => {};
+
 	const observer = new MutationObserver(() => {
 		set(getCurrentMode());
 	});
 
-	observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+	observer.observe(document.documentElement, {
+		attributes: true,
+		attributeFilter: ['class']
+	});
 
 	return () => observer.disconnect();
 });
