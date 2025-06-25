@@ -12,7 +12,8 @@
 					href="mailto:contact@julez.cat"
 					class="text-muted-foreground hover:text-foreground group flex items-center space-x-2 transition-colors"
 					><Mail />
-					<span class="transition-transform duration-200 group-hover:translate-x-1"
+					<span
+						class="transform-gpu transition-transform duration-200 will-change-transform group-hover:translate-x-1"
 						>contact@julez.cat</span
 					></a
 				>
