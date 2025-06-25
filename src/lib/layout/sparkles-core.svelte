@@ -59,7 +59,6 @@
 					}
 				}
 			};
-			console.log('Particles loaded');
 			await tsParticles.load({ id, options });
 		}
 	};
