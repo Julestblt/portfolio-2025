@@ -63,12 +63,7 @@
 	<section class="flex items-center gap-3">
 		<DropdownMenu>
 			<DropdownMenuTrigger>
-				<Button
-					size="lg"
-					variant="outline"
-					class="bg-opacity-50 cursor-pointer
-">Contact Me!</Button
-				>
+				<Button size="lg" variant="outline" class="cursor-pointer">Contact Me!</Button>
 			</DropdownMenuTrigger>
 			<DropdownMenuContent class="w-48">
 				<DropdownMenuLabel>Get in touch</DropdownMenuLabel>
@@ -91,15 +86,11 @@
 				</DropdownMenuGroup>
 			</DropdownMenuContent>
 		</DropdownMenu>
-		<Button
-			size="lg"
-			target="__blank"
-			href="https://github.com/Julestblt"
-			variant="outline"
-			class="bg-opacity-50
-"
-		>
+		<Button size="lg" target="__blank" href="https://github.com/Julestblt" variant="outline">
 			<Github />
+		</Button>
+		<Button size="lg" target="__blank" href="https://blog.julez.cat" variant="outline">
+			My Blog
 		</Button>
 	</section>
 </section>

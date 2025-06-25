@@ -19,9 +19,9 @@
 >
 	<nav class="mx-auto flex h-16 max-w-4xl items-center justify-between px-4">
 		<div class="hidden items-center space-x-6 md:flex">
-			{#each navLinks as link}
-				<Button variant="ghost" class="capitalize" href={link.href} onclick={closeMenu}>
-					{link.name}
+			{#each navLinks as { name, target, href }}
+				<Button variant="ghost" class="capitalize" {href} onclick={closeMenu} {target}>
+					{name}
 				</Button>
 			{/each}
 			<Button onclick={toggleMode} variant="ghost" size="icon" class="cursor-pointer">
