@@ -76,7 +76,7 @@
 				<DropdownMenuGroup>
 					<DropdownMenuItem
 						class="cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700"
-						onclick={() => handleContact('mailto:julesthibault@pm.me')}
+						onclick={() => handleContact('mailto:contact@julez.cat')}
 					>
 						<Mail class="mr-2 h-4 w-4" />
 						<span>Email</span>
